@@ -5,72 +5,45 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.css">
     <title>cv Lina Churbanova</title>
 </head>
 
 <body>
+
     <nav class="nav">
-        <div class="container"></div>  
-            <ul class="nav-list">
-                <li><a  class="nav-link" href="#about">About Myself</a></li>
-                <li><a  class="nav-link" href="#education">Education</a></li>
-                <li><a  class="nav-link" href="#experience">Experience</a></li>
-                <li><a  class="nav-link" href="#code-example">Code Example</a></li>
-            </ul>
+
+        <ul class="nav-list">
+            <li><a class="nav-link" href="#about">About Myself</a></li>
+            <li><a class="nav-link" href="#education">Education</a></li>
+            <li><a class="nav-link" href="#experience">Experience</a></li>
+            <li><a class="nav-link" href="#code-example">Code Example</a></li>
+            <li><a class="nav-link" href="#contacts">Contacts</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#language">Language</a></li>
+            <li><a class="nav-link" href="#interests">Interests</a></li>
+        </ul>
+
     </nav>
     <header class="header">
-        <div class="container"></div>
+
         <h1>Lina Churbanova</h1>
         <h2>Front-End Developer</h2>
-        <div>
-            <img src="assets/img/avatar.jpg" alt="Profile photo">
-        </div>
+        <img src="assets/img/avatar.jpg" alt="Profile photo">
+
     </header>
-    <main class="main">
-        <div class="container"></div>
-        <section id="about">
-            <h3>About Myself</h3>
-            <p>I am 36 years old and I am on maternity leave now. I used to work as Demand Planning Leader for
-                international companies such as Mars, Carlsberg, Heineken. But I have decided to change my career
-                direction.</p>
-        </section>
-        <section id="education">
-            <h3>Education</h3>
-            <p>
-                <a href="https://gsom.spbu.ru/">Saint-Petersburg State University, School of Management</a>
-            </p>
-        </section>
-        <section id="experience">
-            <h3>Experience</h3>
-            <ul>
-                <li>Nov-2019 - Aug-2021 Demand Planning Leader, Mars</li>
-                <li>Jul-2015 - Nov-2019 Demand Planning Manager, Carlsberg</li>
-                <li>Sept-2012 - Jul-2015 Development Manager, Orcla Brands</li>
-                <li>Oct-2008 - Sept-2012 Analyst, Heineken</li>
-            </ul>
-        </section>
-        <section id="code-example">
-            <h3>Code Example</h3>
-            <pre>
-                    <code>
-    function multiply(a, b) {
-        return a * b;
-    }
-                    </code>
-                </pre>
-        </section>
-        <aside>
-            <section>
-                <h3>Contacts</h3>
-                <ul>
+    <main>
+        <div class="main">
+            <section class="section" id="contacts">
+                <h3 class="section-title">Contacts</h3>
+                <ul class="contact-list">
                     <li>
                         <img src="assets/svg/discord.svg" alt="Discord icon">
                         <p>Lina_Ch</p>
                     </li>
                     <li>
                         <img src="assets/svg/email.svg" alt="Email icon">
-                        <p>lina.moiseeva@gmail.com</p>                   
+                        <p>lina.moiseeva@gmail.com</p>
                     </li>
                     <li>
                         <img src="assets/svg/location.svg" alt="Location icon">
@@ -78,22 +51,64 @@
                     </li>
                 </ul>
             </section>
-            <section>
-                <h3>Skills</h3>
+            <section class="section" id="skills">
+                <h3 class="section-title">Skills</h3>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Git</li>
                 </ul>
             </section>
-            <section>
-                <h3>Language</h3>
+            <section class="section" id="language">
+                <h3 class="section-title">Language</h3>
                 <p>English - B1</p>
+
+            </section>
+            <section class="section" id="interests">
+                <h3 class="section-title">Interests</h3>
+                <ul>
+                    <li>Yoga</li>
+                    <li>Dances</li>
+                    <li>Surf</li>
+                </ul>
+            </section>
+        </div>
+        <aside>
+            <section class="section" id="about">
+                <h3 class="section-title">About Myself</h3>
+                <p>I am 36 years old and I am on maternity leave now. I used to work as Demand Planning Leader for
+                    international companies such as Mars, Carlsberg, Heineken. But I have decided to change my career
+                    direction.</p>
+            </section>
+            <section class="section" id="education">
+                <h3 class="section-title">Education</h3>
+                <p>
+                    <a class="education-link" href="https://gsom.spbu.ru/">Saint-Petersburg State University, School of Management</a>
+                </p>
+            </section>
+            <section class="section" id="experience">
+                <h3 class="section-title">Experience</h3>
+                <ul>
+                    <li>Nov-2019 - Aug-2021 Demand Planning Leader, Mars</li>
+                    <li>Jul-2015 - Nov-2019 Demand Planning Manager, Carlsberg</li>
+                    <li>Sept-2012 - Jul-2015 Development Manager, Orcla Brands</li>
+                    <li>Oct-2008 - Sept-2012 Analyst, Heineken</li>
+                </ul>
+            </section>
+            <section class="section" id="code-example">
+                <h3 class="section-title">Code Example</h3>
+                <pre>
+                    <code>
+    function multiply(a, b) {
+        return a * b;
+    }
+                    </code>
+                </pre>
             </section>
         </aside>
     </main>
     <footer class="footer">
-        <div class="container"></div>
+
         <div>
             <a href="https://github.com/Lina0906"><img src="assets/svg/github.svg"></a>
         </div>
@@ -101,7 +116,9 @@
             <a href="https://rs.school/js/"><img src="assets/svg/rs_school_js.svg" alt="RS school"></a>
         </div>
         <div>2022</div>
+
     </footer>
+
 </body>
 
 </html>
