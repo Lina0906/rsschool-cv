@@ -23,14 +23,14 @@ body {
     background-color: rgb(189, 186, 186);
 }
 
-
-
 nav {
     border: 1px solid red;
+    background-color: #998282;
 }
 
 header {
     border: 1px solid red;
+    display: flex;
 }
 
 main {
@@ -41,6 +41,7 @@ main {
 
 footer {
     border: 1px solid red;
+    background-color: #998282;
 }
 
 
@@ -81,12 +82,12 @@ footer {
 }
 
 aside {
-    width: 50%;
+    width: 70%;
     padding: 20px
 }
 
 .main {
-    width: 50%;
+    width: 30%;
     padding: 20px
 }
 
@@ -94,3 +95,61 @@ aside {
     list-style: none;
 }
 
+.contact-list li img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.contact-list li p {
+    display: inline;
+    vertical-align: middle;
+  }
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    padding: 50px 30px 35px;
+    text-align: center;
+    max-width: 1300px;     
+    border-bottom: 15px solid #998282;
+  }
+  
+  header img {
+    margin-bottom: 5px;
+    border: 7px solid #998282;
+    border-radius: 50%;
+    width: 30%;
+    height: 100%;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    }
+  
+
+  h1 {
+    font-size: 60px;
+    margin-bottom: 5px;
+    position: relative;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+  
+  .section {
+    
+
+  }
+
+  
